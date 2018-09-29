@@ -59,9 +59,9 @@ class App extends Component {
             <select className="select-model" onChange={this.updateSelection}>
               <option value="">-- pick a model --</option>
               {computerNames.map((comp, i) => (
-                <option key={i} value={comp}>{`${comp} (${
-                  data[comp].year
-                })`}</option>
+                <option key={i} value={comp}>
+                  {comp} ({data[comp].year})
+                </option>
               ))}
             </select>
             <button className="add-btn" onClick={this.handleSubmit}>
