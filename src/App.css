@@ -1,0 +1,50 @@
+.App {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+
+.select-model {
+  height: 40px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid #333;
+  color: #000;
+  outline: none;
+}
+
+.add-btn {
+  padding: 10px 25px;
+  border-radius: 2px;
+  border: 1px solid #333;
+  font-size: 16px;
+  outline: none;
+}
+
+.add-btn:hover {
+  background: #f7f7f7;
+  cursor: pointer;
+}
+
+ul {
+  background-color: #f1f1f1;
+  border-left: 5px solid red;
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #ddd;
+}
+
+ul li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
