@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 const ModelDetails = props => {
   return props.computers.map((computer, i) => (
     <ul key={i}>
-      <li>{`Name: ${computer.name}`}</li>
-      <li>{`Manufacturer: ${computer.manufacturer}`}</li>
-      <li>{`Year: ${computer.year}`}</li>
-      <li>{`Origin: ${computer.origin}`}</li>
+      <li>Name: {computer.name}</li>
+      <li>Manufacturer: {computer.manufacturer}</li>
+      <li>Year: {computer.year}</li>
+      <li>Origin: {computer.origin}</li>
     </ul>
   ));
 };
